@@ -10,6 +10,8 @@ void storeResults(float avg1, float avg2, float avg3, float avg4, float avg5){
     inputFile << "Player 3 avg score is: " << avg3 << endl;
     inputFile << "Player 4 avg score is: " << avg4 << endl;
     inputFile << "Player 5 avg score is: " << avg5 << endl;
+
+    inputFile.close();
 }
 
 float battingAverage(float bSum1, float bSum2, float bSum3, float bSum4, float bSum5){
